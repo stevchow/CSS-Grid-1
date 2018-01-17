@@ -14,8 +14,9 @@ https://help.github.com/articles/set-up-git/
 create a new repository:
 ```
 curl -u stevchow https://api.github.com/user/repos -d '{ "name": "CSS-Grid-1" }'
-- [ ] change the stevchow to your github username and cssgrid1 to your new name of repo in github
 ```
+- [ ] change the stevchow to your github username and cssgrid1 to your new name of repo in github
+
 
 use HTTPS as clone url, avoid dealing with SSH
 

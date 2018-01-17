@@ -1,7 +1,9 @@
 #howtogithub
+---
 
 Actually this file is for my experiment on how to use github
-first on github?
+-
+#first on github?
 follow this etup on your computer
 follow this step:
 https://help.github.com/articles/set-up-git/

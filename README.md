@@ -31,10 +31,12 @@ git push -u origin master
 ```
 - [ ] change the stevchow to your github username and cssgrid1 to your new name of repo in github
 
-always commit or save before push (update the online repo) by
+always commit or save before push (update the online repo) by:
+```
 git commit -am "your-notes-here-what-do-you-want-to-say"
+```
 
-than
+after that do push :
 
 ```
 git push

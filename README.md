@@ -42,6 +42,7 @@ curl -u stevchow https://api.github.com/user/repos -d '{ "name": "CSS-Grid-1" }'
 use HTTPS as clone url, avoid dealing with SSH
 
 ```
+git init
 git remote rm origin
 git remote add origin https://github.com/stevchow/CSS-Grid-1.git
 git push -u origin master

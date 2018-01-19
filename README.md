@@ -13,6 +13,25 @@ https://help.github.com/articles/set-up-git/
 - [ ] Set your commit email address in Git
 - [ ] https://help.github.com/articles/caching-your-github-password-in-git/
 
+first of all = open terminal, if you use VScode , there is a built in terminal, use it, by press (for Mac) 
+```
+control + `
+```
+
+than create new folder to store file that you want to you as your new git project
+
+you can use 
+```
+mkdir blablayournewfoldernamehere
+```
+
+than change the directory to there
+```
+cd blablayournewfoldernamehere
+```
+
+
+
 create a new repository:
 ```
 curl -u stevchow https://api.github.com/user/repos -d '{ "name": "CSS-Grid-1" }'
@@ -23,15 +42,19 @@ curl -u stevchow https://api.github.com/user/repos -d '{ "name": "CSS-Grid-1" }'
 use HTTPS as clone url, avoid dealing with SSH
 
 ```
-echo "# CSS-Grid-1" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
 git remote rm origin
 git remote add origin https://github.com/stevchow/CSS-Grid-1.git
 git push -u origin master
 ```
 - [ ] change the stevchow to your github username and cssgrid1 to your new name of repo in github
+
+open your new project in VSCode by using
+*note, you should still on your new folder in the terminal
+```
+blablayournewfoldernamehere$ code .
+```
+code. is for open your new project in new VSCode window, than do you work there
+
 
 always commit or save before push (update the online repo) by:
 ```

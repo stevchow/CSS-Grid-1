@@ -56,10 +56,25 @@ blablayournewfoldernamehere$ code .
 ```
 code. is for open your new project in new VSCode window, than do you work there
 
+#IMPORTANT!
+--
+if you close your project, next time you want to work again with it, always start with git pull first
+```
+git pull
+```
+
 
 always commit or save before push (update the online repo) by:
 ```
 git commit -am "your-notes-here-what-do-you-want-to-say"
+```
+if error, try to 
+```
+git add
+```
+then
+```
+git commit -m "yourmessagehere"
 ```
 
 after that do push :

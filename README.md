@@ -45,6 +45,8 @@ use HTTPS as clone url, avoid dealing with SSH
 git init
 git remote rm origin
 git remote add origin https://github.com/stevchow/XXXXXXXXXXXXChangeMe!.git
+git add . 
+git commit -a -m "yourmessagehere" 
 git push -u origin master
 ```
 - [ ] change the stevchow to your github username and cssgrid1 to your new name of repo in github

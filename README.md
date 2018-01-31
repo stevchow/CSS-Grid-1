@@ -1,24 +1,27 @@
-#howtogithub
----
+# howtogithub
 
 Actually this file is for my experiment on how to use github
--
+--
 #first on github?
-follow this etup on your computer
-follow this step:
+
+follow this setup on your computer
+
+follow this [step](https://help.github.com/articles/set-up-git/ "getting started with github"):
+
 https://help.github.com/articles/set-up-git/
 
-- [ ] download git
+- [x] download git
 - [ ] Set your username in Git
 - [ ] Set your commit email address in Git
-- [ ] https://help.github.com/articles/caching-your-github-password-in-git/
+- [ ] [Caching github username and password](https://help.github.com/articles/caching-your-github-password-in-git/)
 
 first of all = open terminal, if you use VScode , there is a built in terminal, use it, by press (for Mac) 
+
 ```
 control + `
 ```
 
-than create new folder to store file that you want to you as your new git project
+then create new folder to store file that you want to you as your new git project
 
 you can use 
 ```
@@ -52,6 +55,7 @@ git push -u origin master
 - [ ] change the stevchow to your github username and cssgrid1 to your new name of repo in github
 
 open your new project in VSCode by using
+
 *note, you should still on your new folder in the terminal
 ```
 blablayournewfoldernamehere$ code .
@@ -96,3 +100,19 @@ if you already have repo in github, clone it / bring it to your machine by this 
 ```
 git clone https://github.com/username/target-project.git
 ```
+
+
+# Mastering Markdown
+
+```diff
+- var x = "John"
++ var x = "Jane"
+```
+
+|front-end web skills|status|
+|:-------------------|:----:|
+|HTML|✅|
+|CSS|✅|
+|VanillaJS|✅|
+
+!["Awesome"](https://source.unsplash.com/random/200x200 "unsplash")
